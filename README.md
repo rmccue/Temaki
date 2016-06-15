@@ -52,7 +52,7 @@ Sample benchmark (single generation, 10k execution iterations):
 
 ## Supported Syntax
 
-Plural-Forms is a [subset of C syntax](https://www.gnu.org/software/gettext/manual/html_node/Plural-forms.html)
+Plural-Forms is a [strict subset of C syntax](https://www.gnu.org/software/gettext/manual/html_node/Plural-forms.html), containing only the operators commonly used in Plural-Forms expressions.
 
 * Single variable `n`
 * Integers (no floating point)
