@@ -311,7 +311,7 @@ class Temaki {
 					break;
 
 				default:
-					throw new Exception( sprintf( 'Unknown operator "%s"', $next ) );
+					throw new Exception( sprintf( 'Unknown operator "%s"', $next[1] ) );
 			}
 		}
 
