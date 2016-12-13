@@ -1,0 +1,12 @@
+<phpunit bootstrap="tests/bootstrap.php">
+	<testsuites>
+		<testsuite>
+			<directory suffix=".php">./tests</directory>
+		</testsuite>
+	</testsuites>
+	<filter>
+		<whitelist>
+			<file>temaki.php</file>
+		</whitelist>
+	</filter>
+</phpunit>
